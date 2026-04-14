@@ -36,7 +36,7 @@
       "links": {
         "Live Website": "https://jcer-smart-assistance.vercel.app/"
       },
-      "image": "/api/image"
+      "image": "/jcer.jpg.jpeg"
     },
     {
       "title": "Freelance Marketplace Platform",
@@ -49,7 +49,7 @@
       "links": {
         "Live Demo": "https://darshan4561.github.io/freelincers/"
       },
-      "image": "/api/image"
+      "image": "/frilincer.jpg.jpeg"
     }
   ],
   "skills": [
