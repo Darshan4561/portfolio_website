@@ -1,0 +1,123 @@
+{
+  "basics": {
+    "name": "Babu Honakhande",
+    "title": "B.E. Student in AI & Machine Learning",
+    "summary": "Enthusiastic student with a growing interest in Artificial Intelligence and Data Science. Familiar with Python, basic machine learning concepts, and data analysis. Passionate about building intelligent solutions and improving technical skills through hands-on projects. Strong foundation in programming and problem solving. Skilled in Python, C/C++, and basic web development. Eager to apply technical knowledge to real-world projects and continuously learn new technologies.",
+    "location": "Karnataka, India",
+    "email": "honkhandebabu@gmail.com",
+    "phone": "789 2456128",
+    "links": {
+      "LinkedIn": "www.linkedin.com/in/babu-honkhande-aa903b342"
+    }
+  },
+  "experience": [
+    {
+      "company": "Academic Projects & Hackathons",
+      "role": "Student Developer",
+      "dates": "Present",
+      "location": "Jain College of Engineering and Research",
+      "bullets": [
+        "Currently pursuing studies in AIML, actively participating in team collaborations.",
+        "Participated in hackathons to gain practical hands-on problem-solving and coding experience.",
+        "Developed team-based projects focused on building practical technical solutions."
+      ]
+    }
+  ],
+  "achievements": [],
+  "projects": [
+    {
+      "title": "JCER Smart Assistant",
+      "stack": ["React", "Next.js", "Tailwind CSS", "Vercel"],
+      "bullets": [
+        "Built a multilingual (English, Hindi, Kannada) interactive smart assistant for Jain College of Engineering and Research.",
+        "Implemented real-time dynamic UI for multiple departments and faculty profiles, with speech synthesis functionality.",
+        "Deployed the responsive full-stack application on Vercel ensuring optimal performance and mobile compatibility."
+      ],
+      "links": {
+        "Live Website": "https://jcer-smart-assistance.vercel.app/"
+      },
+      "image": "/api/image"
+    },
+    {
+      "title": "Freelance Marketplace Platform",
+      "stack": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+      "bullets": [
+        "Developed a responsive front-end for a freelance marketplace connecting clients with global talent.",
+        "Implemented sections for job postings, freelancer portfolios, and project bidding workflows.",
+        "Optimized navigation and user experience to facilitate seamless project management."
+      ],
+      "links": {
+        "Live Demo": "https://darshan4561.github.io/freelincers/"
+      },
+      "image": "/api/image"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": ["Python", "C", "C++", "Java"]
+    },
+    {
+      "category": "Web & Databases",
+      "items": ["Basic Web Development", "Database Management", "SQL Basics"]
+    },
+    {
+      "category": "Core & Emerging Tech",
+      "items": ["Artificial Intelligence", "Data Science", "Machine Learning Concepts", "Problem Solving"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Jain College of Engineering and Research, Udyambag, Belgaum",
+      "degree": "Bachelor of Engineering (BE) in Artificial Intelligence and Machine Learning",
+      "dates": "Expected 2028",
+      "bullets": []
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AI Assisted Coding for Beginners",
+      "issuer": "AZ Career Link",
+      "date": "April 2026",
+      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+    },
+    {
+      "title": "Prompt Engineering Masterclass",
+      "issuer": "Great Learning",
+      "date": "March 2026",
+      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+    },
+    {
+      "title": "Generative AI Literacy",
+      "issuer": "FutureSkills Prime (NASSCOM)",
+      "date": "December 2025",
+      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+    },
+    {
+      "title": "TechnoFest Hackathon Participant",
+      "issuer": "Jain College of Engineering & DLithe",
+      "date": "October 2025",
+      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+    },
+    {
+      "title": "Design Thinking",
+      "issuer": "HP Foundation",
+      "date": "May 2025",
+      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+    },
+    {
+      "title": "Build Your Own Generative AI Model",
+      "issuer": "NxtWave",
+      "date": "May 2025",
+      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+    },
+    {
+      "title": "Hashgraph Developer Course",
+      "issuer": "The Hashgraph Association",
+      "date": "December 2024",
+      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+    }
+  ],
+  "awards": [],
+  "extra": []
+}
