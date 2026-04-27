@@ -68,9 +68,9 @@ export default function Home() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: [0.25, 0.4, 0.25, 1] }}
-        className="min-h-[85vh] flex flex-col md:flex-row justify-center md:justify-between items-center max-w-5xl mx-auto relative pt-10 gap-10"
+        className="min-h-[85vh] flex flex-col justify-center items-center text-center max-w-4xl mx-auto relative pt-10"
       >
-        <div className="flex-1 flex flex-col items-start mt-20 md:mt-0 text-left">
+        <div className="flex flex-col items-center mt-20 md:mt-0">
           <motion.span 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -80,15 +80,15 @@ export default function Home() {
             Welcome, I'm
           </motion.span>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight text-blue-500">
+          <h1 className="text-4xl md:text-8xl font-bold mb-6 tracking-tight leading-tight text-blue-500">
             {resumeData.basics.name}
           </h1>
           
-          <h2 className="text-2xl md:text-4xl text-gray-400 font-light mb-8 max-w-2xl leading-relaxed">
+          <h2 className="text-xl md:text-4xl text-gray-400 font-light mb-8 max-w-2xl leading-relaxed">
             {resumeData.basics.title}
           </h2>
 
-          <p className="text-lg text-gray-500 max-w-xl mb-12">
+          <p className="text-base md:text-lg text-gray-500 max-w-2xl mb-12">
             {resumeData.basics.summary}
           </p>
           
@@ -103,22 +103,6 @@ export default function Home() {
             </a>
           </motion.div>
         </div>
-
-        {/* BH Text Avatar */}
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.3 }}
-          className="md:w-1/3 flex justify-center mt-12 md:mt-0 relative"
-        >
-          <div className="absolute inset-0 bg-green-500 blur-[80px] opacity-20 rounded-full" />
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full flex items-center justify-center border-4 border-white/10 shadow-[0_0_40px_rgba(34,197,94,0.3)] bg-[#0a0a15] overflow-hidden group">
-            <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-600/20 opacity-50 group-hover:opacity-100 transition-opacity duration-500" />
-            <span className="text-8xl md:text-9xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-emerald-600 relative z-10">
-              BH
-            </span>
-          </div>
-        </motion.div>
       </motion.section>
 
       {/* Experience Section */}
@@ -136,10 +120,10 @@ export default function Home() {
             <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full" />
           </motion.div>
 
-          <div className="space-y-12 border-l-2 border-white/10 pl-8 ml-4 relative">
+          <div className="space-y-12 border-l-2 border-white/10 pl-6 md:pl-8 ml-2 md:ml-4 relative">
             {resumeData.experience.map((exp, idx) => (
               <motion.div key={idx} variants={itemVariants} className="relative group">
-                <div className="absolute -left-[41px] top-1 w-4 h-4 bg-[#05050a] border-2 border-blue-500 rounded-full group-hover:bg-blue-500 group-hover:shadow-[0_0_15px_rgba(59,130,246,0.6)] transition-all duration-300" />
+                <div className="absolute -left-[25px] md:-left-[41px] top-1 w-4 h-4 bg-[#05050a] border-2 border-green-500 rounded-full group-hover:bg-green-500 group-hover:shadow-[0_0_15px_rgba(34,197,94,0.6)] transition-all duration-300" />
                 <div className="glass glass-hover p-8 rounded-2xl -mt-5 transition-all duration-300 transform group-hover:-translate-y-1 shadow-xl">
                   <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                     <div>
@@ -243,10 +227,10 @@ export default function Home() {
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full" />
         </motion.div>
         
-        <div className="space-y-12 border-l-2 border-white/10 pl-8 ml-4 relative">
+        <div className="space-y-12 border-l-2 border-white/10 pl-6 md:pl-8 ml-2 md:ml-4 relative">
           {resumeData.education.map((edu, idx) => (
             <div key={idx} className="relative group">
-              <div className="absolute -left-[41px] top-1 w-4 h-4 bg-[#05050a] border-2 border-blue-500 rounded-full group-hover:bg-blue-500 group-hover:shadow-[0_0_15px_rgba(59,130,246,0.6)] transition-all duration-300" />
+              <div className="absolute -left-[25px] md:-left-[41px] top-1 w-4 h-4 bg-[#05050a] border-2 border-green-500 rounded-full group-hover:bg-green-500 group-hover:shadow-[0_0_15px_rgba(34,197,94,0.6)] transition-all duration-300" />
               
               <div className="glass glass-hover p-8 rounded-3xl -mt-5 transition-all duration-300 transform group-hover:-translate-y-1">
                 <h4 className="text-2xl font-bold text-white mb-2">{edu.institution}</h4>
