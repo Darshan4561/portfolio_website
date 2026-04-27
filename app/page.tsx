@@ -70,14 +70,14 @@ export default function Home() {
         transition={{ duration: 0.9, ease: [0.25, 0.4, 0.25, 1] }}
         className="min-h-[85vh] flex flex-col md:flex-row justify-center md:justify-between items-center max-w-5xl mx-auto relative pt-10 gap-10"
       >
-        <div className="flex-1 flex flex-col items-start mt-20 md:mt-0">
+        <div className="flex-1 flex flex-col items-start mt-20 md:mt-0 text-left">
           <motion.span 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
             className="text-blue-400 font-mono text-sm tracking-wider mb-4 block uppercase"
           >
-            Greetings, I am
+            Welcome, I'm
           </motion.span>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight text-blue-500">
@@ -104,24 +104,19 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* Profile Picture Placeholder */}
+        {/* BH Text Avatar */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
           className="md:w-1/3 flex justify-center mt-12 md:mt-0 relative"
         >
-          <div className="absolute inset-0 bg-blue-500 blur-[80px] opacity-20 rounded-full" />
-          <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/10 shadow-[0_0_40px_rgba(59,130,246,0.3)]">
-            <img 
-              src="/profile.jpg.jpeg" 
-              alt="Babu Honakhande" 
-              className="w-full h-full object-cover bg-[#0a0a15]"
-              onError={(e) => {
-                // Fallback rendering if no image is present yet
-                (e.target as HTMLImageElement).src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="%233b82f6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>';
-              }}
-            />
+          <div className="absolute inset-0 bg-green-500 blur-[80px] opacity-20 rounded-full" />
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full flex items-center justify-center border-4 border-white/10 shadow-[0_0_40px_rgba(34,197,94,0.3)] bg-[#0a0a15] overflow-hidden group">
+            <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-600/20 opacity-50 group-hover:opacity-100 transition-opacity duration-500" />
+            <span className="text-8xl md:text-9xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-emerald-600 relative z-10">
+              BH
+            </span>
           </div>
         </motion.div>
       </motion.section>

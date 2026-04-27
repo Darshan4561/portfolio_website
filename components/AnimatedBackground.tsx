@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useRef } from "react";
@@ -9,7 +10,7 @@ export default function AnimatedBackground() {
     // Check prefers-reduced-motion
     const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
     if (mediaQuery.matches) {
-      return; 
+      return;
     }
 
     const canvas = canvasRef.current;

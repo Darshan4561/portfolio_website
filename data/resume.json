@@ -26,17 +26,16 @@
   "achievements": [],
   "projects": [
     {
-      "title": "JCER Smart Assistant",
-      "stack": ["React", "Next.js", "Tailwind CSS", "Vercel"],
+      "title": "Multimodal Sentiment Analysis Engine",
+      "stack": ["Python", "TensorFlow", "FastAPI", "React"],
       "bullets": [
-        "Built a multilingual (English, Hindi, Kannada) interactive smart assistant for Jain College of Engineering and Research.",
-        "Implemented real-time dynamic UI for multiple departments and faculty profiles, with speech synthesis functionality.",
-        "Deployed the responsive full-stack application on Vercel ensuring optimal performance and mobile compatibility."
+        "Developed a deep learning model to analyze sentiment from text, audio, and video inputs simultaneously.",
+        "Utilized BERT for text processing and CNN-LSTM architectures for audio-visual feature extraction.",
+        "Achieved 89% accuracy on the CMU-MOSEI dataset, outperforming single-modality baselines.",
+        "Built a real-time dashboard to visualize emotional transitions in video content."
       ],
-      "links": {
-        "Live Website": "https://jcer-smart-assistance.vercel.app/"
-      },
-      "image": "/jcer.jpg.jpeg"
+      "links": {},
+      "image": "/api/image"
     },
     {
       "title": "Freelance Marketplace Platform",
