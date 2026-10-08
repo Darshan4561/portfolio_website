@@ -7,7 +7,7 @@
     "email": "honkhandebabu@gmail.com",
     "phone": "789 2456128",
     "links": {
-      "LinkedIn": "www.linkedin.com/in/babu-honkhande-aa903b342"
+      "LinkedIn": "https://www.linkedin.com/in/babu-honakhande-aa903b342?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     }
   },
   "experience": [
@@ -75,46 +75,60 @@
   ],
   "certifications": [
     {
-      "title": "AI Assisted Coding for Beginners",
-      "issuer": "AZ Career Link",
-      "date": "April 2026",
-      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
-    },
-    {
       "title": "Prompt Engineering Masterclass",
       "issuer": "Great Learning",
       "date": "March 2026",
-      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+      "url": "https://www.mygreatlearning.com/certificate/IEZBEFRA"
+    },
+    {
+      "title": "AI Assisted Coding for Beginners",
+      "issuer": "AZ Career Link",
+      "date": "April 2026",
+      "id": "AZFW03-0027",
+      "url": "https://www.linkedin.com/in/babu-honakhande-aa903b342"
+    },
+    {
+      "title": "Cybersecurity MOOC Course",
+      "issuer": "CySecK (Cyber Security Karnataka)",
+      "date": "2026",
+      "id": "CYKMOC22779",
+      "url": "https://www.linkedin.com/in/babu-honakhande-aa903b342"
+    },
+    {
+      "title": "Web Development using JavaScript & React JS",
+      "issuer": "DLithe",
+      "date": "January 2026",
+      "url": "https://www.linkedin.com/in/babu-honakhande-aa903b342"
     },
     {
       "title": "Generative AI Literacy",
       "issuer": "FutureSkills Prime (NASSCOM)",
       "date": "December 2025",
-      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+      "url": "https://www.linkedin.com/in/babu-honakhande-aa903b342"
     },
     {
       "title": "TechnoFest Hackathon Participant",
       "issuer": "Jain College of Engineering & DLithe",
       "date": "October 2025",
-      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+      "url": "https://www.linkedin.com/in/babu-honakhande-aa903b342"
     },
     {
       "title": "Design Thinking",
       "issuer": "HP Foundation",
       "date": "May 2025",
-      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+      "url": "https://www.linkedin.com/in/babu-honakhande-aa903b342"
     },
     {
       "title": "Build Your Own Generative AI Model",
       "issuer": "NxtWave",
       "date": "May 2025",
-      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+      "url": "https://www.linkedin.com/in/babu-honakhande-aa903b342"
     },
     {
       "title": "Hashgraph Developer Course",
       "issuer": "The Hashgraph Association",
       "date": "December 2024",
-      "url": "https://linkedin.com/in/babu-honkhande-aa903b342"
+      "url": "https://www.linkedin.com/in/babu-honakhande-aa903b342"
     }
   ],
   "awards": [],

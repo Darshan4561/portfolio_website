@@ -308,16 +308,23 @@ export default function Home() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {resumeData.certifications.map((cert, idx) => (
+            {resumeData.certifications.map((cert: any, idx: number) => (
               <motion.div key={idx} variants={itemVariants} className="glass glass-hover p-8 rounded-3xl group transition-all duration-300">
                 <div className="flex items-start gap-4">
                   <div className="p-4 bg-green-500/10 rounded-2xl border border-green-500/20 flex-shrink-0 mt-1">
                     <GraduationCap className="text-green-400" size={28} />
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <h4 className="text-xl font-bold text-white mb-2 leading-tight">{cert.title}</h4>
                     <p className="text-green-400 font-medium mb-1">{cert.issuer}</p>
-                    <p className="text-sm text-gray-500 font-mono">{cert.date}</p>
+                    <div className="flex flex-wrap items-center gap-2 mt-2 text-sm">
+                      <span className="text-gray-400 font-mono">{cert.date}</span>
+                      {cert.id && (
+                        <span className="text-xs font-mono text-gray-400 bg-white/5 px-2.5 py-0.5 rounded-full border border-white/10">
+                          ID: {cert.id}
+                        </span>
+                      )}
+                    </div>
                   </div>
                 </div>
               </motion.div>
@@ -346,7 +353,12 @@ export default function Home() {
           <a href={`mailto:${resumeData.basics.email}`} className="px-6 py-3 glass glass-hover rounded-full text-blue-300 flex items-center gap-3 transition-all hover:text-blue-200">
             <Mail size={18} /> {resumeData.basics.email}
           </a>
-          <a href={`https://${resumeData.basics.links.LinkedIn}`} target="_blank" rel="noopener noreferrer" className="px-6 py-3 glass glass-hover rounded-full text-blue-300 flex items-center gap-3 transition-all hover:text-blue-200">
+          <a 
+            href={resumeData.basics.links.LinkedIn.startsWith('http') ? resumeData.basics.links.LinkedIn : `https://${resumeData.basics.links.LinkedIn}`} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="px-6 py-3 glass glass-hover rounded-full text-blue-300 flex items-center gap-3 transition-all hover:text-blue-200"
+          >
             <Globe size={18} /> LinkedIn Profile
           </a>
         </div>
